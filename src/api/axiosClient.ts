@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-    baseURL: 'https://localhost:7039', 
+    baseURL: 'https://socialfeedapi-ftbhaagrcrbyczac.canadacentral-01.azurewebsites.net', 
 });
 
 axiosClient.interceptors.request.use((config) => {
