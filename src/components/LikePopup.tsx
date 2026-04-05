@@ -6,7 +6,7 @@ interface Props {
     fetchLikers: (id: string) => Promise<string[]>;
 }
 
-export default function LikePopup({ id, type, fetchLikers }: Props) {
+export default function LikePopup({ id,  fetchLikers }: Props) {
     const [names, setNames] = useState<string[]>([]);
     const [loading, setLoading] = useState(true);
 
