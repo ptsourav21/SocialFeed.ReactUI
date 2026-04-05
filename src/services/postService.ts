@@ -1,5 +1,5 @@
 import axiosClient from '../api/axiosClient';
-import type { CreatePostDto, PostResponseDto, CommentResponseDto, UserDto } from '../types/post';
+import type { CreatePostDto, PostResponseDto, UserDto } from '../types/post';
 
 export const postService = {
     getFeedPosts: async (): Promise<PostResponseDto[]> => {
